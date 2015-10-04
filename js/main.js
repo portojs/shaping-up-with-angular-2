@@ -5,13 +5,23 @@
     var app = angular.module('store', []);
 
     app.controller('StoreController', function(){
-        this.product = gem;
+        this.products = gems;
     });
 
-    var gem = {
-        name: 'Dodecahedron',
-        price: 0.5,
-        description: '...',
-        canPurchase: false
-    };
+    var gems = [
+        {
+            name: 'Dodecahedron',
+            price: 202.5,
+            description: '...',
+            canPurchase: true,
+            soldOut: false
+        },
+        {
+            name: 'Bibicahedron',
+            price: 99.2,
+            description: '...',
+            canPurchase: true,
+            soldOut: false
+        }
+    ];
 })();

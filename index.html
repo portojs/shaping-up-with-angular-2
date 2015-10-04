@@ -9,11 +9,14 @@
     <script type="text/javascript" src="js/main.js"></script>
     <title></title>
 </head>
-<body>
-    <div ng-controller="StoreController as store">
-        <h1> {{store.product.name}} </h1>
-        <h2> ${{store.product.price}} </h2>
-        <p> {{store.product.description}} </p>
-    </div>
+<body ng-controller="StoreController as store">
+    <ul class="list-group">
+       <li class="list-group-item" ng-repeat="product in store.products | limitTo:5 | orderBy:'-price'">
+           <h3>
+               {{product.name | uppercase}}
+               <em class="pull-right">{{product.price | currency}}</em>
+           </h3>
+       </li>
+    </ul>
 </body>
 </html>
