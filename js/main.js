@@ -11,6 +11,7 @@
     var gem = {
         name: 'Dodecahedron',
         price: 0.5,
-        description: '...'
+        description: '...',
+        canPurchase: false
     };
 })();
