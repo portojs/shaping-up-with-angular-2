@@ -32,6 +32,18 @@
                     thumb: 'img/Thug_thumb.jpg'
                 }
             ],
+            reviews: [
+                {
+                    stars: 4,
+                    body: "...",
+                    author: "Peter"
+                },
+                {
+                    stars: 3,
+                    body: "...",
+                    author: "Bobba"
+                }
+            ],
             canPurchase: true,
             soldOut: false
         },
@@ -47,6 +59,18 @@
                 {
                     full: 'img/Gunwoman.jpg',
                     thumb: 'img/Gunwoman_thumb.jpg'
+                }
+            ],
+            reviews: [
+                {
+                    stars: 5,
+                    body: "...",
+                    author: "Peter"
+                },
+                {
+                    stars: 2,
+                    body: "...",
+                    author: "Bobba"
                 }
             ],
             canPurchase: true,
