@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Dodecahedron",
+    "price": 202,
+    "description": "...",
+    "images": [
+      {
+        "full": "img/Chuck.jpg",
+        "thumb": "img/Chuck_thumb.jpg"
+      },
+      {
+        "full": "img/Thug.jpg",
+        "thumb": "img/Thug_thumb.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "stars": 4,
+        "body": "...",
+        "author": "Peter"
+      },
+      {
+        "stars": 3,
+        "body": "...",
+        "author": "Bobba"
+      }
+    ],
+    "canPurchase": true,
+    "soldOut": false
+  },
+  {
+    "name": "Dodecahedron",
+    "price": 202,
+    "description": "...",
+    "images": [
+      {
+        "full": "img/Chuck.jpg",
+        "thumb": "img/Chuck_thumb.jpg"
+      },
+      {
+        "full": "img/Thug.jpg",
+        "thumb": "img/Thug_thumb.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "stars": 4,
+        "body": "...",
+        "author": "Peter"
+      },
+      {
+        "stars": 3,
+        "body": "...",
+        "author": "Bobba"
+      }
+    ],
+    "canPurchase": true,
+    "soldOut": false
+  }
+]
